@@ -18,6 +18,8 @@ struct Node* AddToHead(Node* head, int value, int size )
     return tempnode;
 }
 
+Node* AddToTail();
+
 void Printlist(Node* Head)
 {
     while(Head != NULL)
